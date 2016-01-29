@@ -1,3 +1,4 @@
+package PuzzleGCHQ;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,7 +16,7 @@ public class Square {
 	private int colPosition;	// column of the square
 	private JButton square;		// button for the square
 	
-	Square(int id, boolean f, int rowPosition, int colPosition, JButton square)
+	public Square(int id, boolean f, int rowPosition, int colPosition, JButton square)
 	{
 		this.id = id;
 		this.flag = f;

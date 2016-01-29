@@ -1,3 +1,4 @@
+package PuzzleGCHQ;
 
 public class Grid {
 	
@@ -5,9 +6,9 @@ public class Grid {
 	private int columns = 0;
 	private String difficulty;
 	
-	Grid() { }
+	public Grid() { }
 	
-	Grid(int r, int c, String s) {
+	public Grid(int r, int c, String s) {
 		rows = r;
 		columns = c;
 		difficulty = s;
